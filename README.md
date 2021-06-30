@@ -4,7 +4,7 @@ Automation is written for Jmeter
 http://jmeter.apache.org/download_jmeter.cgi
 
 2. Clone Jumpcloud Repo
-3. Move jmeter-jumpcloud.jmx in to apache-jmeter-5.4.1 /bin
+3. Move jmeter-jumpcloud.jmx into apache-jmeter-5.4.1 /bin
 4. Run ./jmeter.sh in /bin
 5. Open jmeter-jumpcloud.jmx
 6. Test plan contains 6 suites
