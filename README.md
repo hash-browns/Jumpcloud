@@ -9,7 +9,7 @@ http://jmeter.apache.org/download_jmeter.cgi
 5. Open jmeter-jumpcloud.jmx
 6. Test plan contains 6 suites
     1. Endpoint tests -  This suite contains assertions on individual endpoints.There are asserions on the job identifier for the POST on /hash, the json structure of /stats and the shutdown request returning a 200 response.
-    2. End to end - This suite contain no assertions. Assertions can be expensive in Jmeter so the intention was to make this fast
+    2. End to end - This suite contains no assertions. Assertions can be expensive in Jmeter so the intention was to make this fast
     3. Multiple Theads - Test is configured to run 10 threads and see how the application performs under a more realistic scenario
     4. Use job identifier before hash is computed - This will post to /hash and run a GET on the job id before the 5 seconds needed to calculate the hash
     5. Gracefully shutdown - This will POST to /hash and immediately initate a shutdown but verifies a job id is returned from the first request. 
